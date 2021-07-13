@@ -1,0 +1,65 @@
+<div>
+
+    <td> <img src="https://financegradeup.com/wp-content/uploads/2020/06/Axis_bank_New_Logo.png" width="1500"></td>
+       
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlMqy6B-ALQ1YP3lLMjd_cz1deYDhIgcPeLg&usqp=CAU">
+     >
+
+    <table align="center">
+
+        <th (click)="function1()">LoginwithPassword</th>
+        <th (click)="function2()">LoginwithDebitCard</th>
+        <th (click)="function3()">LoginwithMPI</th>
+        <tr><td colspan="3"><hr></td></tr>
+       
+    </table><br><br>
+    <table align="center">
+
+        <tr>
+            <th *ngIf="toggle">Username:</th>
+            <th *ngIf="toggle"><input type="text"></th>
+
+        </tr>
+        <tr>
+            <th *ngIf="toggle">Password:</th>
+            <th *ngIf="toggle"><input type="password"></th>
+        </tr>
+        <tr >
+            <th *ngIf="toggle" colspan="1"><input type="button" value="login"></th>
+        </tr>
+
+        <tr>
+            <th *ngIf="toggle1">DebitCardNumber:</th>
+            <th *ngIf="toggle1"><input type="text"></th>
+
+        </tr><br>
+        <tr>
+            <th *ngIf="toggle1">Enteryourotp:</th>
+            <th *ngIf="toggle1"><input type="number"></th>
+
+        </tr>
+        <tr>
+            <th *ngIf="toggle1" colspan="2"><input type="button" value="login"></th>
+        </tr>
+
+
+
+        <tr>
+            <th *ngIf="toggle2">CoustomerId:</th><br>
+            <th *ngIf="toggle2"><input type="radio" name="tk"></th>
+
+        </tr>
+        <tr>
+            <th *ngIf="toggle2">Registered Mobilenumber</th><br>
+            <th *ngIf="toggle2"><input type="radio" name="tk"></th>
+
+        </tr>
+        <tr>
+            <th *ngIf="toggle2" colspan="3"><input type="button" value="login"></th>
+        </tr>
+
+    </table>
+
+
+
+</div>
